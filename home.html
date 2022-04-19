@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./src/bilder/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>GRAND-MALL</title>
+</head>
+<body>
+    <header class="background">
+        <!-- /* ................................NAVIGATION..................................... */ -->
+      <div class="nav">
+          <div id="open" class="destop">
+              <div>
+                  <a href="./home.html"><img src="./src/bilder/doualalogo.svg" width="100px" alt=""></a>
+              </div>
+          
+              <ul>
+                  <li class="active"><a href="/home.html">HOME</a></li>
+                  <li><a href="#shop">SHOP-LISTE</a></li>
+                  <li><a href="#uns">ÜBER DGM</a></li>
+                  <li><a href="#event">EVENTS</a></li>
+                  <li><a href="#kontakt">KONTAKT</a></li>
+
+              </ul>
+
+              <div >
+                  <form action="#">
+                      <input type="text" placeholder="Suche..." name="search">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+              </div>
+          
+              <div class="sozial">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram-square"></i>
+              </div>
+          </div>
+
+      </div>
+
+        
+
+            
+
+           
+  
+
+    <!-- /*............................. mobile version............................... */ -->
+              
+            <div class="mobile">
+                <div> <img src="./src/bilder/doualalogo.svg" width="80px" alt=""></div>
+                <div> <i class="fa-solid fa-bars"></i></div>
+            
+            </div>
+
+      
+        <!-- /*............................. FORMULAR.............................. */ -->
+
+        <div class="tete">
+
+            <div class="schein">
+              <span>50%  RABATT !</span>
+            </div>
+
+            <div>
+                <h1>
+                    THE DOUALA <br> GRAND LIFE
+                </h1>
+
+                <p>
+                    DAS BESTE EINKAUFSZIEL IN DOUALA !
+                </p>
+            </div>
+
+            <div class="container">
+                <form action="">
+                    <label for="fname">Vorname</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Dein Name..">
+                
+                    <label for="lname">Nachname</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Dein Nachname..">
+                
+                    <label for="country">Land</label>
+                    <select  id="country" name="country">
+                        <option  value="Kamerun">Kamerun</option>
+                        <option value="Gabun">Gabun</option>
+                        <option value="Tchad">Tchad</option>
+                    </select>
+                
+                    <label for="subject">Thema</label>
+                    <textarea id="subject" name="subject" placeholder="Etwas schreiben...." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Senden">
+                </form>
+            </div>
+       </div>
+        
+        <!-- Bilder in voller Breite mit Nummer und Beschriftungstext-->
+      <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="./src/bilder/mall.jpg"  width="1920px">
+            
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              
+              <video autoplay muted loop id="myVideo">
+                <source src="./src/video/kauft.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+              
+              <div class="content">
+                <h1>THE DOUALA
+                    GRAND MALL</h1>
+                <p> ist das Benchmark-Einkaufszentrum in Kamerun mit einem Angebot Integration von Freizeit, Catering, internationalen und lokalen Marken.</p>
+                <button class="myBtn">ÜBER DGM</button>
+              </div>
+              
+              
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="./src/bilder/buyer.jpg" >
+              <div class="text">
+                 
+              </div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+        </div>
+ 
+      
+    </header>
+
+ 
+
+    <main>
+       
+
+        <section id="shop"   class="gelb">
+            
+            <div  class="city">
+
+                <h1 >UNSERE GESCHÄFTE IN AFRIKA</h1>
+
+                <div class="container2">
+                    <div class="card card0">
+                    <div class="border">
+                        <h2>DOUALA</h2>
+                        <div class="icons">
+                        <i class="fa-brands fa-youtube"aria-hidden="true"></i>
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card card1">
+                    <div class="border">
+                        <h2>LIBREVILLE</h2>
+                        <div class="icons">
+                            <i class="fa-brands fa-youtube"aria-hidden="true"></i>
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card card2">
+                    <div class="border">
+                        <h2>DJAMENA</h2>
+                        <div class="icons">
+                            <i class="fa-brands fa-youtube"aria-hidden="true"></i>
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+         
+        </section>
+
+        <section id="uns" class="uns">
+
+            <div class="hero-image" >
+                <div class="hero-text">
+                  <h1 > DOUALA GRAND-MALL </h1>
+                  <p>Die Douala Grand Mall ist ein Einkaufszentrum mit 18.000 m² vermietbarer Fläche. Es umfasst ein Multiplex von 5 Kinos mit 1000 Sitzplätzen, einen Carrefour-Supermarkt, 160 Geschäfte und Läden, 22 Restaurants, ein Spa und 640 Parkplätze in der ersten Phase.</p>
+                  <button>Weirer lesen</button>
+                </div>
+                <div class="hero-exclusions">
+                  <a href="https://doualagrandmall.com/">
+                    <h5 class="exclusions">BESUCHEN SIE DIE ORIGINAL-WEBSITE</h5>
+                  </a>
+                </div>
+              
+                <div id="popup1" class="overlay">
+                  <div class="popup">
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                      <br><br>
+                      <h2>Promotional Information & Exclusions</h2>
+                      This is a list of exclusions
+                      <br><br><br>
+                    </div>
+                  </div>
+                </div>
+
+             <img src="./src/bilder/strip.png" width="100%" alt="">
+
+          
+                <!--/*Das Popup im Lightbox-Stil*/ -->
+            </div>
+
+        </section>
+
+        <section id="event" class="wann">
+            
+            <div class="kalendar" >
+                <h2>VERANSTALTUNGEN</h2>
+                <div class="container3" id="calendar">
+                    <div class="calendar">
+                      <div class="front">
+                        <div class="current-date">
+                          <h1>Freitag 15</h1>
+                          <h1>Mai 2022</h1>	
+                        </div>
+              
+                        <div class="current-month">
+                          <ul class="week-days">
+                            <li>MON</li>
+                            <li>DI</li>
+                            <li>MI</li>
+                            <li>DO</li>
+                            <li>FR</li>
+                            <li>SA</li>
+                            <li>SUN</li>
+                          </ul>
+              
+                          <div class="weeks">
+                            <div class="first">
+                              <span class="last-month">28</span>
+                              <span class="last-month">29</span>
+                              <span class="last-month">30</span>
+                              <span class="last-month">31</span>
+                              <span>01</span>
+                              <span>02</span>
+                              <span>03</span>
+                            </div>
+              
+                            <div class="second">
+                              <span>04</span>
+                              <span>05</span>
+                              <span class="event">06</span>
+                              <span>07</span>
+                              <span>08</span>
+                              <span>09</span>
+                              <span>10</span>
+                            </div>
+              
+                            <div class="third">
+                              <span>11</span>
+                              <span>12</span>
+                              <span>13</span>
+                              <span>14</span>
+                              <span class="active">15</span>
+                              <span>16</span>
+                              <span>17</span>
+                            </div>
+              
+                            <div class="fourth">
+                              <span>18</span>
+                              <span>19</span>
+                              <span>20</span>
+                              <span>21</span>
+                              <span>22</span>
+                              <span>23</span>
+                              <span>24</span>
+                            </div>
+              
+                            <div class="fifth">
+                              <span>25</span>
+                              <span>26</span>
+                              <span>27</span>
+                              <span>28</span>
+                              <span>29</span>
+                              <span>30</span>
+                              <span>31</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="back">
+                        <input placeholder="Was ist das für Events?">
+                        <div class="info">
+                          <div class="date">
+                            <p class="info-date">
+                              Datum: <span>15. Mai 2022</span>
+                            </p>
+                            <p class="info-time">
+                              Zeit <span>18:35 Uhr</span>
+                            </p>
+                          </div>
+                          <div class="address">
+                            <p>
+                              Address: <span>Kaiserstraße 26, Oldenburg,Oldb</span>
+                            </p>
+                          </div>
+                          <div class="observations">
+                            <p>
+                              Feststellungen: <span>Seien Sie 15 Minuten früher da !</span>
+                            </p>
+                          </div>
+                        </div>
+              
+                        <div class="actions">
+                          <button class="save">
+                            Speichern <i class="ion-checkmark"></i>
+                          </button>
+                          <button class="dismiss">
+                            Entlassen <i class="ion-android-close"></i>
+                          </button>
+                        </div>
+                      </div>
+              
+                    
+              
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- /*.............................KONTAKT FORMULAR.............................. */ --> 
+
+        <section id="kontakt" class="contacter">
+          <form action="#" method="#">
+            <h1>KONTAKTIERE UNS </h1>
+            <p>Bitte nehmen Sie sich einen Moment Zeit, um mit uns in Kontakt zu treten, wir werden uns in Kürze bei Ihnen melden.</p>
+          
+            <div class="column">
+              <label for="the-name">Dein Name</label>
+              <input type="text" name="name" id="the-name">
+          
+              <label for="the-email">E-Mail-Addresse</label>
+              <input type="email" name="email" id="the-email">
+          
+              <label for="the-phone">Rufnummer</label>
+              <input type="tel" name="phone" id="the-phone">
+          
+              <label for="the-reason">Wie können wir Ihnen helfen?</label>
+              <select name="reason" id="the-reason">
+              <option value="">Städte</option>
+              <option value="web">Douala</option>
+              <option value="video">Libreville</option>
+              <option value="3d">Djamena</option>
+            </select>
+            </div>
+            <div class="column">
+              <label for="the-message">Nachricht</label>
+              <textarea name="message" id="the-message"></textarea>
+              <label>
+              <input type="checkbox" name="newsletter" value="yes"> Möchten Sie Mitglied in unserer Mailingliste Werden ?
+              </label>
+              <input type="submit" value="Nachricht senden">
+            </div>
+          </form>
+
+          <div class="scroll">
+            <a href="./home.html"><img src="./src/bilder/scroll-icon-19.png" width="70px" alt=""></a>
+              <h5 >Bitte scrollen !</h5>
+          </div>
+         
+        </section>
+
+        
+    </main>
+
+    <footer>
+
+        <div class="text">
+            <h4>© Bernard Ngassa</h4>
+            <p>Diese Seite ist eine originelle Design. Ich habe nur  die Bilder und Texte kopiert und habe ich damit ein neues Design gemacht !</p>
+        </div>
+
+        <div class="down">
+            <div class="pied">
+                <div>
+                  <a href="./home.html"><img src="./src/bilder/doualalogo.svg" width="100px" alt=""></a>
+                </div>
+            
+               
+                <h4>HANDELSZEITEN:</h4>
+                <p>Montag: 7:00 - 21:30 | Dienstag - Sonntag: 7:00 - 22:00 und Feiertage 7:00 - 21:30 Uhr</p>
+              
+
+               
+            
+                <div class="foot-sozial">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                </div>
+            </div>
+
+          </div>
+
+
+    </footer>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
