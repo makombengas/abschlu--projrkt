@@ -12,13 +12,13 @@
     <header class="background">
         <!-- /* ................................NAVIGATION..................................... */ -->
       <div class="nav">
-          <div id="open" class="destop">
+          <div id="menu" class="destop">
               <div>
-                  <a href="./index.html"><img src="./src/bilder/doualalogo.svg" width="100px" alt=""></a>
+                  <a href="index.html"><img src="./src/bilder/doualalogo.svg" width="100px" alt=""></a>
               </div>
           
               <ul>
-                  <li class="active"><a href="/index.html">HOME</a></li>
+                  <li class="active"><a href="#home">HOME</a></li>
                   <li><a href="#shop">SHOP-LISTE</a></li>
                   <li><a href="#uns">ÜBER DGM</a></li>
                   <li><a href="#event">EVENTS</a></li>
@@ -26,7 +26,7 @@
 
               </ul>
 
-              <div >
+              <div class="tablet">
                   <form action="#">
                       <input type="text" placeholder="Suche..." name="search">
                       <button type="submit"><i class="fa fa-search"></i></button>
@@ -50,16 +50,19 @@
 
     <!-- /*............................. mobile version............................... */ -->
               
-            <div class="mobile">
-                <div> <img src="./src/bilder/doualalogo.svg" width="80px" alt=""></div>
-                <div> <i class="fa-solid fa-bars"></i></div>
-            
-            </div>
+    <div id="#burger-menu" class="mobile">
+      <div> <img src="./src/bilder/doualalogo.svg" width="80px" alt=""></div>
+      <div> 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
+        
+      </div>
+  
+    </div>         
 
       
         <!-- /*............................. FORMULAR.............................. */ -->
 
-        <div class="tete">
+        <div  id="home"  class="tete">
 
             <div class="schein">
               <span>50%  RABATT !</span>
@@ -111,7 +114,7 @@
               <div class="numbertext">2 / 3</div>
               
               <video autoplay muted loop id="myVideo">
-                <source src="./src/video/kauft.mp4" type="video/mp4">
+                <source src="./src/video/kauft.mp4"  type="video/mp4">
                 Your browser does not support HTML5 video.
               </video>
               
@@ -385,8 +388,8 @@
           </form>
 
           <div class="scroll">
-            <a href="./index.html"><img src="./src/bilder/scroll-icon-19.png" width="70px" alt=""></a>
-              <h5 >Bitte scrollen !</h5>
+            <a href="#home"><img src="./src/bilder/scroll-icon-19.png" width="70px" alt=""></a>
+              <h5 ><a href="#home">Bitte scrollen !</a></h5>
           </div>
          
         </section>
@@ -404,7 +407,7 @@
         <div class="down">
             <div class="pied">
                 <div>
-                  <a href="./home.html"><img src="./src/bilder/doualalogo.svg" width="100px" alt=""></a>
+                  <a href="index.html"><img src="./src/bilder/doualalogo.svg" width="100px" alt=""></a>
                 </div>
             
                
